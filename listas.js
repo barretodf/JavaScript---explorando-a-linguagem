@@ -9,7 +9,7 @@ const listaDeDestinos = new Array (
     `Rio de Janeiro`
 );
 
-listaDeDestinos.push('Bahia')//Adicionando itens na lista.
+listaDeDestinos.push('Curitiba')//Adicionando itens na lista.
 
 console.log('Destinos possíveis');
 console.log(listaDeDestinos)
@@ -21,4 +21,4 @@ console.log(listaDeDestinos);
 
 //Exibir só o destino que quero
 
-console.log(listaDeDestinos[1]);
+console.log(listaDeDestinos[0], listaDeDestinos[2]);
