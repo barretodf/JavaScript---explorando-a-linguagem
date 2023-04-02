@@ -6,7 +6,7 @@ const listaDeDestinos = new Array(
     `Rio de Janeiro`
 );
 const idadeComprador = 17;
-const acompanhadaPorAdulto = true;
+const acompanhadaPorAdulto = false;
 
 console.log('Destinos possíveis');
 console.log(listaDeDestinos);
@@ -27,7 +27,7 @@ if (idadeComprador >= 18 || acompanhadaPorAdulto == true) {
     console.log("Compra efetuada com sucesso!");
     listaDeDestinos.splice(1, 1); // removendo item
 }   else {
-    console.log("Não é maior de idade e não posso vender");
+    console.log("Proibida a venda para menores de idade!");
 }
 
 
