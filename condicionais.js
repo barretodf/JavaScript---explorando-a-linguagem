@@ -11,18 +11,24 @@ const acompanhadaPorAdulto = true;
 console.log('Destinos possíveis');
 console.log(listaDeDestinos);
 
-if (idadeComprador >= 18) {
+// if (idadeComprador >= 18) {
 
-    console.log('Comprador maior de idade');
-    listaDeDestinos.splice(1, 1) //O primeiro 1 é o ítem, o segundo 1 é a quantidade de ítens
-} else if (acompanhadaPorAdulto) {
-    console.log('Comprador acompanhado por pessoa maior de idade');
-    listaDeDestinos.splice(1, 1)
+//     console.log('Comprador maior de idade');
+//     listaDeDestinos.splice(1, 1) //O primeiro 1 é o ítem, o segundo 1 é a quantidade de ítens
+// } else if (acompanhadaPorAdulto) {
+//     console.log('Comprador acompanhado por pessoa maior de idade');
+//     listaDeDestinos.splice(1, 1)
 
-} else {
-    console.log('Proibida a venda para menores de idade!')
+// } else {
+//     console.log('Proibida a venda para menores de idade!')
+// }
+
+if (idadeComprador >= 18 || acompanhadaPorAdulto == true) {
+    console.log("Compra efetuada com sucesso!");
+    listaDeDestinos.splice(1, 1); // removendo item
+}   else {
+    console.log("Não é maior de idade e não posso vender");
 }
-
 
 
 //Splice deleta ítens da lista
