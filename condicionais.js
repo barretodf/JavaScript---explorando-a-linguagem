@@ -10,6 +10,7 @@ const acompanhadaPorAdulto = false;
 
 console.log('Destinos possíveis');
 console.log(listaDeDestinos);
+const passagemValida = true;
 
 // if (idadeComprador >= 18) {
 
@@ -27,10 +28,16 @@ if (idadeComprador >= 18 || acompanhadaPorAdulto == true) {
     console.log("Compra efetuada com sucesso!");
     listaDeDestinos.splice(1, 1); // removendo item
 }   else {
-    console.log("Proibida a venda para menores de idade!");
+    console.log("Proibida a venda para menores de idade! \n \n");
 }
 
+console.log('Embarque: \n' )
 
+if (idadeComprador >= 18 && passagemValida){
+    console.log('Boa viagem')
+}else{
+    console.log('Não pode embarcar!')
+}
 //Splice deleta ítens da lista
 
 
