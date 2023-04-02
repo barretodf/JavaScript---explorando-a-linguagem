@@ -35,3 +35,14 @@ if (podeComprar && destinoExiste){
 }else{
     console.log('Desculpe tivemos um erro!')
 }
+
+for(let i = 0; i <3; i++){
+    
+    if (listaDeDestinos[i] == destino){
+        destinoExiste = true;
+        
+    }
+    
+}
+
+//laço de repetição for
