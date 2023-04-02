@@ -5,7 +5,7 @@ const listaDeDestinos = new Array(
     `São Paulo`,
     `Rio de Janeiro`
 );
-const idadeComprador = 18;
+const idadeComprador = 17;
 const acompanhadaPorAdulto = false;
 let passagemValida = false;
 const destino = 'Salvador';
