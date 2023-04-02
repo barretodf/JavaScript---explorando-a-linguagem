@@ -7,7 +7,9 @@ const listaDeDestinos = new Array (
     `Salvador`,
     `São Paulo`,
     `Rio de Janeiro`
-
 );
+
+listaDeDestinos.push('Bahia')//Adicionando itens na lista.
+
 console.log('Destinos possíveis');
 console.log(listaDeDestinos);
