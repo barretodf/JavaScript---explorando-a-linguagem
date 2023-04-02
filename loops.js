@@ -8,7 +8,7 @@ const listaDeDestinos = new Array(
 const idadeComprador = 18;
 const acompanhadaPorAdulto = false;
 let passagemValida = false;
-const destino = 'Rio de Janeiro';
+const destino = 'Curitiba';
 
 console.log('\n Destinos possíveis');
 console.log(listaDeDestinos);
@@ -18,11 +18,16 @@ console.log(listaDeDestinos);
 const podeComprar = idadeComprador >= 18 || acompanhadaPorAdulto == true;
 
 let contador = 0;
+let destinoExiste = false;
 while(contador <3){
-    console.log(listaDeDestinos[contador]);
+    
+    if (listaDeDestinos[contador] == destino){
+        destinoExiste = true;
+        break;
+    }
     contador += 1;
 }
 
+console.log('Destino Existe: ', destinoExiste);
 
-
-//Usando o contador while
+//break e debugger
