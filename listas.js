@@ -15,10 +15,10 @@ console.log('Destinos possíveis');
 console.log(listaDeDestinos)
 
 //Splice deleta ítens da lista
-// listaDeDestinos.splice(1,1) //O primeiro 1 é o ítem, o segundo 1 é a quantidade de ítens
+listaDeDestinos.splice(1,1) //O primeiro 1 é o ítem, o segundo 1 é a quantidade de ítens
 
-// console.log(listaDeDestinos);
+console.log(listaDeDestinos);
 
 //Exibir só o destino que quero
 
-console.log(listaDeDestinos[2]);
+console.log(listaDeDestinos[1]);
