@@ -12,4 +12,8 @@ const listaDeDestinos = new Array (
 listaDeDestinos.push('Bahia')//Adicionando itens na lista.
 
 console.log('Destinos possíveis');
+
+//Splice deleta ítens da lista
+listaDeDestinos.splice(1,1) //O primeiro 1 é o ítem, o segundo 1 é a quantidade de ítens
+
 console.log(listaDeDestinos);
